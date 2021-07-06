@@ -1,6 +1,5 @@
 {
   "extends": [
-    null,
     "tslint-etc",
     "tslint-config-prettier",
     "tslint-plugin-prettier",
@@ -10,7 +9,7 @@
     "no-unused-declaration": true,
     "max-line-length": [
       true,
-      90
+      120
     ],
     "quotemark": [
       true,
