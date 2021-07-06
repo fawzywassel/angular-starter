@@ -3,12 +3,13 @@
     null,
     "tslint-etc",
     "tslint-config-prettier",
-    "tslint-plugin-prettier"
+    "tslint-plugin-prettier",
+    "tslint:recommended"
   ],
   "rules": {
     "no-unused-declaration": true,
     "max-line-length": [
-      false,
+      true,
       90
     ],
     "quotemark": [
